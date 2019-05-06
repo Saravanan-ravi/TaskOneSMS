@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/compose"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Compose Here"
+        android:textSize="30sp"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textFontWeight="1000"
+        android:freezesText="true"
+        android:textStyle="italic"
+        android:textAppearance="?android:absListViewStyle"/>
+        
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to" />
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/phn_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_the_mail_id"
+        android:maxLength="10"
+        android:inputType="phone" />
+
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/Subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Subject"
+        android:maxLength="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/msg_edt"
+        android:hint="Type Your Message Here" />
+
+
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="SEND" />
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="RESET" />
+
+
+</LinearLayout>

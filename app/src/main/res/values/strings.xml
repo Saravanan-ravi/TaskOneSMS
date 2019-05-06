@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TaskOneSMS</string>
+    <string name="enter_the_mail_id">Enter The Mail-ID</string>
+    <string name="to">To:</string>
+    <string name="compose_here">Compose Here</string>
+    <string name="message">Message:</string>
+    <string name="subject">Subject</string>
+    <string name="type_your_message_here">Type Your Message Here</string>
+    <string name="send">SEND</string>
+    <string name="reset">RESET</string>
+
+    <string name="call">CALL</string>
+    <string name="e_mail">E-Mail</string>
+
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+
+
+</resources>
